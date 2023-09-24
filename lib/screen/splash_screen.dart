@@ -47,7 +47,7 @@ class _SplashScreenState extends State<SplashScreen>
             child: Center(
               child: ScaleTransition(
                 scale: animation!,
-                child: Text(
+                child: const Text(
                   'Welcome To BPL \n T20 ১০ম আসর',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
@@ -58,9 +58,9 @@ class _SplashScreenState extends State<SplashScreen>
               ),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.only(bottom: 20),
-            child: const CircularProgressIndicator(
+          const Padding(
+            padding: EdgeInsets.only(bottom: 20),
+            child: CircularProgressIndicator(
               backgroundColor: Colors.white,
               color: Colors.green,
             ),
