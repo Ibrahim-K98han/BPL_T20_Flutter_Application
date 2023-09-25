@@ -48,7 +48,7 @@ class _SplashScreenState extends State<SplashScreen>
               child: ScaleTransition(
                 scale: animation!,
                 child: const Text(
-                  'Welcome To BPL \n T20 ১০ম আসর',
+                  'Welcome To BPL T20 10th Season',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 25,
